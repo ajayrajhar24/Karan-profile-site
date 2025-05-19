@@ -1,40 +1,65 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   margin: 0;
-  padding: 0;
+  background: #f4f4f4;
+  color: #333;
 }
 
-.container {
+header {
+  background: #1abc9c;
+  color: white;
   text-align: center;
-  background: white;
-  margin: 50px auto;
-  padding: 30px;
-  max-width: 600px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 40px 20px;
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #1abc9c;
+  margin-bottom: 10px;
+  border: 3px solid white;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.photo-section .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.shayari-section {
+  background: #fff;
+  border-top: 2px solid #ddd;
+}
+
+.shayari-box {
+  background: #fefefe;
+  border-left: 5px solid #1abc9c;
+  padding: 20px;
   margin-bottom: 20px;
+  font-style: italic;
+  line-height: 1.6;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
 }
 
-.socials {
-  list-style: none;
-  padding: 0;
-}
-
-.socials li {
-  display: inline;
-  margin: 0 10px;
-}
-
-.socials a {
-  text-decoration: none;
-  color: #1abc9c;
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
