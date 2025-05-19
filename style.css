@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1abc9c;
+  margin-bottom: 20px;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+}
+
+.socials li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #1abc9c;
+}
