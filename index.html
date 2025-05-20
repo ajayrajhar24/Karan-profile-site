@@ -29,9 +29,13 @@
     <h2>📝 Shayari</h2>
 
     <div class="tabs">
-      <button class="tab-button active" onclick="showTab('betrayal')">💔 Betrayal</button>
-      <button class="tab-button" onclick="showTab('longing')">😔 Longing</button>
-      <button class="tab-button" onclick="showTab('healing')">🌱 Healing</button>
+        <button class="tab-button active" onclick="showTab('betrayal')">💔 Betrayal</button>
+        <button class="tab-button" onclick="showTab('longing')">😔 Longing</button>
+        <button class="tab-button" onclick="showTab('healing')">🌱 Healing</button>
+        <button class="tab-button" onclick="showTab('memories')">🕰️ Memories</button>
+        <button class="tab-button" onclick="showTab('hope')">✨ Hope</button>
+        <button class="tab-button" onclick="showTab('selflove')">🪞 Self-Love</button>
+        <button class="tab-button" onclick="showTab('movingon')">🚶 Moving On</button>
     </div>
 
     <!-- Betrayal Shayari -->
@@ -76,6 +80,43 @@
       </div>
     </div>
 
+    <div id="memories" class="tab-content">
+  <div class="shayari-box">
+    <p>कुछ लम्हें आज भी साँसों में रुके हैं,<br>तेरे साथ बिताए हर पल कुछ कहे हैं।</p>
+  </div>
+  <div class="shayari-box">
+    <p>वो तस्वीरें जो अब भी दिल को हिला देती हैं,<br>तेरे होने का सबूत आज भी दे जाती हैं।</p>
+  </div>
+</div>
+
+  <div id="hope" class="tab-content">
+  <div class="shayari-box">
+    <p>हर अंधेरी रात के बाद सवेरा होता है,<br>टूटा दिल भी कभी दोबारा धड़कता है।</p>
+  </div>
+  <div class="shayari-box">
+    <p>ख्वाब अधूरे हैं तो क्या,<br>उन्हें पूरा करने की जिद बाकी है।</p>
+  </div>
+</div>
+
+<div id="selflove" class="tab-content">
+  <div class="shayari-box">
+    <p>जिस दिन खुद से प्यार करना आ गया,<br>उस दिन किसी के जाने का ग़म ना रहा।</p>
+  </div>
+  <div class="shayari-box">
+    <p>मैं खुद की तलाश में हूँ,<br>अब और किसी की जरूरत नहीं।</p>
+  </div>
+</div>
+
+
+<div id="movingon" class="tab-content">
+  <div class="shayari-box">
+    <p>अब तुझसे कोई गिला नहीं,<br>क्योंकि अब मैं खुद की राह पर चल पड़ा हूँ।</p>
+  </div>
+  <div class="shayari-box">
+    <p>तेरी यादों का मौसम भी गुजर जाएगा,<br>फिर एक नई सुबह मेरे नाम की होगी।</p>
+  </div>
+</div>
+
   </section>
 
   <footer>
@@ -99,6 +140,6 @@
       event.target.classList.add('active');
     }
   </script>
-  
+
 </body>
 </html>
